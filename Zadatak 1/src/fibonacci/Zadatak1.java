@@ -7,9 +7,8 @@ public class Zadatak1 {
 		// TODO Auto-generated method stub
 		
 		Scanner reader = new Scanner(System.in);  // pravimo objekat tipa Scener za citanje unosa sa komandne linije
-		int length_of_fibonacci_series = 0; // inicijalno duzina niza je 0
 		System.out.println("Unesite duzinu Fibonacijevog niza: "); // ispis poruke na komadnoj liniji
-		length_of_fibonacci_series = reader.nextInt(); // skenira sledeci token iz ulza kao int
+		int length_of_fibonacci_series = reader.nextInt(); // skenira sledeci token iz ulza kao int
 			
 		if(length_of_fibonacci_series >= 0) // proveravamo da li je uneta vrednost u odgovarajucim granicama
 		{
