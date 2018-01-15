@@ -37,11 +37,13 @@ public class FibonacciSequence {
         }
     }
 
-    public void print()
+    public String toString()
     {
+    	String text = new String("");
     	for(int i = 0; i < m_length_of_fibonacci_series; i++) // ispisujemo zadati broj elemenata niza
         {
-            System.out.println("fibonacci_series["+ (i + 1) +"]= " + m_fibonacci_series[i]); // ispis fibonacijevog broja
+            text = text.concat("fibonacci_series["+ (i + 1) +"]= " + m_fibonacci_series[i] + "\n");
         }
+    	return text;
     }
 }
